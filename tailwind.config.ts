@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        aqua: '#00ffff',    // Define aqua color
+        crimson: '#dc143c', // Define crimson color
       },
     },
   },
