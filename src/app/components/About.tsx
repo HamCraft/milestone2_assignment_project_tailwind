@@ -21,6 +21,8 @@ const About = () => {
               src="/ahmed.jpg" 
               alt="Ahmed Yaqoob Dhedhi"
               className="rounded-lg shadow-lg w-full"
+              width={100}
+              height={100}
             />
           </div>
 

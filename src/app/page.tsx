@@ -10,9 +10,11 @@ const Home = () => {
     <Navbar />
     <div className="container mt-24 mx-auto px-12 py-4">
      <About />
-     <Contact/>
     </div>
+    <Contact/>
+    <div className="mt-8">
      <Footer />
+     </div>
   </main>
   );
 };
