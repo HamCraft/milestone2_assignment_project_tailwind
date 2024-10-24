@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Import Next.js Image component
+import Image from 'next/image'; 
 
 const About = () => {
   return (
@@ -17,8 +17,8 @@ const About = () => {
         <div className="lg:flex lg:items-start lg:space-x-12">
           {/* Left: Image or Visual */}
           <div className="lg:w-1/3 mb-8 lg:mb-0">
-            <img 
-              src="/ahmed.jpg" // Add your image path here
+            <Image
+              src="/ahmed.jpg" 
               alt="Ahmed Yaqoob Dhedhi"
               className="rounded-lg shadow-lg w-full"
             />
@@ -28,7 +28,7 @@ const About = () => {
           <div className="lg:w-2/3">
             <h3 className="text-4xl font-semibold mb-4">Who Am I?</h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              I’m an 18-year-old Full Stack Developer with expertise in modern web technologies like JavaScript, TypeScript, React, Next.js, and Tailwind CSS. Passionate about building dynamic, responsive, and user-centric applications, I strive to continuously improve my skills and stay updated with the latest trends in web development. My goal is to create innovative digital solutions that deliver seamless user experiences.
+              I&apos;m an 18-year-old Full Stack Developer with expertise in modern web technologies like JavaScript, TypeScript, React, Next.js, and Tailwind CSS. Passionate about building dynamic, responsive, and user-centric applications, I strive to continuously improve my skills and stay updated with the latest trends in web development. My goal is to create innovative digital solutions that deliver seamless user experiences.
             </p>
 
             {/* Skills Section */}
@@ -39,9 +39,9 @@ const About = () => {
               {/* Skill Item */}
               <div className="text-center">
                 <Image
-                  src="/html-icon.png" // Add the path to your JavaScript icon image
+                  src="/html-icon.png" 
                   alt="HTML"
-                  width={100} // Adjust size as needed
+                  width={100} 
                   height={100}
                   className="mx-auto"
                 />
@@ -49,9 +49,9 @@ const About = () => {
               </div>
               <div className="text-center">
                 <Image
-                  src="/css-icon.png" // Add the path to your JavaScript icon image
+                  src="/css-icon.png" 
                   alt="CSS"
-                  width={100} // Adjust size as needed
+                  width={100} 
                   height={100}
                   className="mx-auto"
                 />
@@ -74,7 +74,7 @@ const About = () => {
 
               <div className="text-center">
                 <Image
-                  src="/typescript-logo.png" // Add the path to your TypeScript icon image
+                  src="/typescript-logo.png"
                   alt="TypeScript"
                   width={100}
                   height={100}
@@ -85,7 +85,7 @@ const About = () => {
 
               <div className="text-center">
                 <Image
-                  src="/tailwind-icon.png" // Add the path to your Tailwind CSS icon image
+                  src="/tailwind-icon.png" 
                   alt="Tailwind CSS"
                   width={100}
                   height={100}
@@ -96,7 +96,7 @@ const About = () => {
 
               <div className="text-center">
                 <Image
-                  src="/react-icon.png" // Add the path to your React icon image
+                  src="/react-icon.png" 
                   alt="React"
                   width={100}
                   height={100}
@@ -107,7 +107,7 @@ const About = () => {
 
               <div className="text-center">
                 <Image
-                  src="/nextjs-icon.png" // Add the path to your Next.js icon image
+                  src="/nextjs-icon.png" 
                   alt="Next.js"
                   width={100}
                   height={100}
